@@ -1,0 +1,1 @@
+This React Native bug arises when using AsyncStorage to store data.  The issue is inconsistent behavior; sometimes data is retrieved correctly, other times it returns null, even when data is confirmed to be present. This inconsistency makes debugging difficult, as the error isn't consistently reproducible.
